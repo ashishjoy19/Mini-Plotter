@@ -4423,7 +4423,7 @@
 	)
 	(rectangle
 		(start 233.68 83.82)
-		(end 299.72 203.2)
+		(end 299.72 212.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -4922,6 +4922,16 @@
 			(type default)
 		)
 		(uuid "32c8b8f2-a77b-4f17-9b1c-614553399e63")
+	)
+	(wire
+		(pts
+			(xy 266.7 204.47) (xy 273.05 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c167a3-6838-47bd-a42c-de3ff50747ab")
 	)
 	(wire
 		(pts
@@ -5605,6 +5615,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 205.74) (xy 245.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4bda3a-f3f4-40c2-ad99-f7c28d0ae136")
+	)
+	(wire
+		(pts
 			(xy 361.95 124.46) (xy 359.41 124.46)
 		)
 		(stroke
@@ -5662,6 +5682,16 @@
 			(type default)
 		)
 		(uuid "e0da8b6f-99af-4d44-9b02-7727732fb33d")
+	)
+	(wire
+		(pts
+			(xy 245.11 204.47) (xy 256.54 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54c7872-f07d-4536-8146-ef43c5152566")
 	)
 	(wire
 		(pts
@@ -5789,6 +5819,28 @@
 			)
 		)
 	)
+	(global_label "GPIO12"
+		(shape input)
+		(at 273.05 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "113f44bc-0c0d-4535-ae29-d0bf02748b0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.9295 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN1"
 		(shape input)
 		(at 195.58 102.87 0)
@@ -5855,6 +5907,28 @@
 			)
 		)
 	)
+	(global_label "GPIO12"
+		(shape input)
+		(at 195.58 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21dd7b1d-86c4-43a9-ab51-f31462b0dbaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.4595 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN7"
 		(shape input)
 		(at 195.58 118.11 0)
@@ -5879,7 +5953,7 @@
 	)
 	(global_label "Servo"
 		(shape input)
-		(at 195.58 92.71 0)
+		(at 195.58 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5889,7 +5963,7 @@
 		)
 		(uuid "305fe848-4bb5-425d-a2db-051bfa1d22c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.7661 92.71 0)
+			(at 203.7661 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,6 +7466,72 @@
 			(project "Pen_Plotter"
 				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:PWR_GND")
+		(at 245.11 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d725414-d677-471d-aa11-966826a5d19f")
+		(property "Reference" "#PWR034"
+			(at 245.11 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_GND"
+			(at 245.11 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837e7c5a-5cfc-4514-8d9b-dedbddc65971")
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10687,6 +10827,75 @@
 			(project "Pen_Plotter"
 				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:R_1206")
+		(at 261.62 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ada260a1-a68f-4b8d-a637-cdf42bae597a")
+		(property "Reference" "R11"
+			(at 261.62 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10K"
+			(at 261.62 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fab:R_1206"
+			(at 261.62 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9386392e-6221-4e73-8f07-25e338d39281")
+		)
+		(pin "2"
+			(uuid "a6b58fc0-ac9b-4928-95d6-e2b2f84d0f63")
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "R11")
 					(unit 1)
 				)
 			)
