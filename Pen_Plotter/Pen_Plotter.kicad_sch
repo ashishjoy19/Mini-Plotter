@@ -2400,6 +2400,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "fab:MountingHole_M3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "fab:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_M3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_M3_1_1"
+				(text "M3"
+					(at 0.635 -1.905 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+						(justify left)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fab:PWR_3V3"
 			(power)
 			(pin_names
@@ -4064,6 +4191,10 @@
 	(no_connect
 		(at 165.1 85.09)
 		(uuid "c5db06b7-2e7d-4b90-b470-9fdb828dc014")
+	)
+	(no_connect
+		(at 203.2 71.12)
+		(uuid "f5a0afe4-75a8-40bf-965d-193b576a4ddf")
 	)
 	(wire
 		(pts
@@ -6626,6 +6757,70 @@
 		)
 	)
 	(symbol
+		(lib_id "fab:MountingHole_M3")
+		(at 361.95 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "248ae9cb-53fc-4b00-bf99-e17fd0ae21a3")
+		(property "Reference" "H3"
+			(at 365.76 80.2653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 365.76 82.8053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fab:MountingHole_M3"
+			(at 361.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:PWR_5V")
 		(at 355.6 22.86 0)
 		(unit 1)
@@ -6752,6 +6947,70 @@
 			(project "Pen_Plotter"
 				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:MountingHole_M3")
+		(at 361.95 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c3440fe-fa67-4783-9b3c-81317252c437")
+		(property "Reference" "H2"
+			(at 365.76 73.9153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 365.76 76.4553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fab:MountingHole_M3"
+			(at 361.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8303,6 +8562,70 @@
 		)
 	)
 	(symbol
+		(lib_id "fab:MountingHole_M3")
+		(at 361.95 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "765e67d0-c486-4b1d-a047-8087b0ee8b05")
+		(property "Reference" "H4"
+			(at 365.76 86.6153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 365.76 89.1553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fab:MountingHole_M3"
+			(at 361.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:PinHeader_01x02_P2.54mm_Vertical_THT_D1.4mm")
 		(at 91.44 140.97 0)
 		(unit 1)
@@ -9822,6 +10145,70 @@
 			(project "Pen_Plotter"
 				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:MountingHole_M3")
+		(at 361.95 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4931773-a58c-401f-8ed2-e3bf113dbb3e")
+		(property "Reference" "H1"
+			(at 365.76 67.5653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 365.76 70.1053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fab:MountingHole_M3"
+			(at 361.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
