@@ -1531,6 +1531,384 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB4125-GF-A_REVA2:USB4125-GF-A_REVA2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB4125-GF-A_REVA2"
+				(at -7.62 -26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "USB4125-GF-A_REVA2:GCT_USB4125-GF-A_REVA2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Global Connector Technology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.16 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/USB4125-GF-A/Global+Connector+Technology/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "Rev A2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4125-GF-A/Global+Connector+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "USB4125-GF-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5160675&manufacturer=Global Connector Technology&part_name=USB4125-GF-A&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "USB Charge Only Connector Type C Horizontal Receptacle, 3.16mm profile, 6 Pins, Surface mount, Top mount, low cost"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "GCT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USB4125-GF-A_REVA2_0_0"
+				(rectangle
+					(start -7.62 -25.4)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "VBUS__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "SHIELD__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -20.32 0)
+					(length 5.08)
+					(name "SHIELD__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -22.86 0)
+					(length 5.08)
+					(name "SHIELD__3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fab:CP_Elec_100uF_Panasonic_EEE-FN1E101UL"
 			(pin_numbers
 				(hide yes)
@@ -3520,7 +3898,7 @@
 		(uuid "00b108b8-f254-40f6-97d4-000a57c2ac81")
 	)
 	(junction
-		(at 162.56 41.91)
+		(at 325.12 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c121e4f-5ffd-4905-b5ab-b1ac12c6fc8e")
@@ -3530,6 +3908,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12011641-ff40-4ec0-8e8c-486fce6ad3e7")
+	)
+	(junction
+		(at 355.6 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f453c24-ed5e-4b7b-97b4-464218e3def4")
 	)
 	(junction
 		(at 265.43 30.48)
@@ -3562,6 +3946,12 @@
 		(uuid "7668094c-485e-45ff-bf3d-caf8b706e64e")
 	)
 	(junction
+		(at 355.6 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab90326-a380-43a0-a1c1-53855071af40")
+	)
+	(junction
 		(at 45.72 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3574,7 +3964,7 @@
 		(uuid "956f8a6c-858e-44f1-8279-fa74aa0c019e")
 	)
 	(junction
-		(at 162.56 31.75)
+		(at 325.12 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5b7f2c-8922-4352-9ba0-84b8fbb1d7d4")
@@ -3592,6 +3982,18 @@
 		(uuid "a7fdcaec-3a39-4b83-b051-95d21176420f")
 	)
 	(junction
+		(at 355.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b72c52bc-d39d-42ab-980f-f916d9759644")
+	)
+	(junction
+		(at 355.6 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd70d0de-6b23-4642-b76f-9346bbbd020d")
+	)
+	(junction
 		(at 256.54 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3602,6 +4004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caad90d1-09f4-4038-833a-17a8ca0d1120")
+	)
+	(junction
+		(at 355.6 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15f8090-bd7b-48ee-bc4f-4f170009b162")
 	)
 	(junction
 		(at 265.43 104.14)
@@ -3616,6 +4024,10 @@
 	(no_connect
 		(at 165.1 82.55)
 		(uuid "21171795-59d9-4529-b27f-c46b824066d4")
+	)
+	(no_connect
+		(at 355.6 30.48)
+		(uuid "319c2d3e-703b-4a06-813b-11984eb01010")
 	)
 	(no_connect
 		(at 195.58 92.71)
@@ -3644,6 +4056,10 @@
 	(no_connect
 		(at 195.58 130.81)
 		(uuid "a2c17e52-d964-4aeb-965d-51434f0e9445")
+	)
+	(no_connect
+		(at 355.6 33.02)
+		(uuid "b8aa5ba7-8c99-4f52-9cd4-5afba01b584b")
 	)
 	(no_connect
 		(at 165.1 85.09)
@@ -3851,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 41.91) (xy 162.56 41.91)
+			(xy 313.69 40.64) (xy 325.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +4337,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 41.91) (xy 162.56 40.64)
+			(xy 325.12 40.64) (xy 325.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3981,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 40.64) (xy 355.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73801fcb-5b98-408c-86da-79b3e9d1f2f9")
+	)
+	(wire
+		(pts
 			(xy 58.42 48.26) (xy 58.42 55.88)
 		)
 		(stroke
@@ -4008,6 +4434,16 @@
 			(type default)
 		)
 		(uuid "8215f376-f970-421b-9ffd-794b6f43047b")
+	)
+	(wire
+		(pts
+			(xy 355.6 45.72) (xy 355.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2acf78-defd-42a9-b4ee-eeb4fb054e9d")
 	)
 	(wire
 		(pts
@@ -4071,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 31.75) (xy 162.56 31.75)
+			(xy 313.69 30.48) (xy 325.12 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4121,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 31.75) (xy 162.56 33.02)
+			(xy 325.12 30.48) (xy 325.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4191,6 +4627,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 22.86) (xy 355.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba63e9d3-c2a7-458e-a548-252cd1f079ec")
+	)
+	(wire
+		(pts
 			(xy 246.38 135.89) (xy 257.81 135.89)
 		)
 		(stroke
@@ -4251,6 +4697,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 38.1) (xy 355.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30b968d-520c-48cf-bd17-764c67e6769d")
+	)
+	(wire
+		(pts
 			(xy 242.57 41.91) (xy 254 41.91)
 		)
 		(stroke
@@ -4261,7 +4717,27 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 162.56 41.91)
+			(xy 346.71 40.64) (xy 355.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ff4f3e-9b6e-4c7a-95fc-87cf915d435a")
+	)
+	(wire
+		(pts
+			(xy 355.6 50.8) (xy 355.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfa5290-cd0c-4151-bd35-57426ce6cbd6")
+	)
+	(wire
+		(pts
+			(xy 325.12 41.91) (xy 325.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4348,6 +4824,16 @@
 			(type default)
 		)
 		(uuid "e5dc8c6b-03d5-44f8-b4af-d70d878d812a")
+	)
+	(wire
+		(pts
+			(xy 355.6 48.26) (xy 355.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02d69e8-9870-4b67-9e50-d4900e39d0ed")
 	)
 	(wire
 		(pts
@@ -4765,6 +5251,28 @@
 			)
 		)
 	)
+	(global_label "EN"
+		(shape input)
+		(at 363.22 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "629b66fb-d8c3-47a6-be6a-d3719e166987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.6847 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT2"
 		(shape input)
 		(at 74.93 82.55 0)
@@ -4822,6 +5330,28 @@
 		(uuid "6a7a7958-931f-4fe7-90c2-b34d4a9bc420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.7233 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN"
+		(shape input)
+		(at 363.22 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6abb3795-71bd-47bc-b9fb-f00b615a81c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.6847 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,6 +6627,72 @@
 	)
 	(symbol
 		(lib_id "fab:PWR_5V")
+		(at 355.6 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27a1eed3-6751-48fb-8157-72a1a66be706")
+		(property "Reference" "#PWR011"
+			(at 355.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_5V"
+			(at 355.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "281147a2-93f9-4061-9c34-9249f666c051")
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:PWR_5V")
 		(at 105.41 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7172,6 +7768,72 @@
 		)
 	)
 	(symbol
+		(lib_id "fab:PWR_GND")
+		(at 346.71 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b28fb2-6bf1-41a9-8a72-5844b065931d")
+		(property "Reference" "#PWR010"
+			(at 346.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_GND"
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86ec62d6-d5a7-49dc-a3bf-4fbbad6c1dbe")
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:R_1206")
 		(at 269.24 153.67 90)
 		(unit 1)
@@ -7242,7 +7904,7 @@
 	)
 	(symbol
 		(lib_id "fab:PWR_5V")
-		(at 162.56 31.75 0)
+		(at 325.12 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7251,7 +7913,7 @@
 		(fields_autoplaced yes)
 		(uuid "6118861f-b93d-482a-ba2e-f86819e2a118")
 		(property "Reference" "#PWR025"
-			(at 162.56 35.56 0)
+			(at 325.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7922,7 @@
 			)
 		)
 		(property "Value" "PWR_5V"
-			(at 162.56 26.67 0)
+			(at 325.12 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 31.75 0)
+			(at 325.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 31.75 0)
+			(at 325.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +7948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 31.75 0)
+			(at 325.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,6 +7963,76 @@
 			(project "Pen_Plotter"
 				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fab:R_1206")
+		(at 363.22 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "641c06b3-0417-4412-9889-abda9ea2f034")
+		(property "Reference" "R7"
+			(at 365.76 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 365.76 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "fab:R_1206"
+			(at 363.22 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 363.22 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb717bbe-20f4-4a4d-b92e-0bfb65a5c0c3")
+		)
+		(pin "1"
+			(uuid "6bf039fc-39f1-48c0-9f05-ac43408b794f")
+		)
+		(instances
+			(project "Pen_Plotter"
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7506,7 +8238,7 @@
 	)
 	(symbol
 		(lib_id "fab:PWR_GND")
-		(at 162.56 43.18 0)
+		(at 325.12 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7515,7 +8247,7 @@
 		(fields_autoplaced yes)
 		(uuid "73522aee-0d89-4c2a-a6e9-fe4b53c53798")
 		(property "Reference" "#PWR026"
-			(at 162.56 49.53 0)
+			(at 325.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +8256,7 @@
 			)
 		)
 		(property "Value" "PWR_GND"
-			(at 162.56 48.26 0)
+			(at 325.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +8264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 43.18 0)
+			(at 325.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +8273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 43.18 0)
+			(at 325.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +8282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 43.18 0)
+			(at 325.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +9555,7 @@
 	)
 	(symbol
 		(lib_id "fab:CP_Elec_100uF_Panasonic_EEE-FN1E101UL")
-		(at 151.13 36.83 0)
+		(at 313.69 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8831,7 +9563,7 @@
 		(dnp no)
 		(uuid "c2b4a66e-51fc-48bd-8ec9-70dbcf9807be")
 		(property "Reference" "C9"
-			(at 154.94 35.2424 0)
+			(at 317.5 33.9724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +9572,7 @@
 			)
 		)
 		(property "Value" "CP_Elec_100uF_Panasonic_EEE-FN1E101UL"
-			(at 144.78 24.638 0)
+			(at 307.34 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +9581,7 @@
 			)
 		)
 		(property "Footprint" "fab:CP_Elec_100uF_Panasonic_EEE-FN1E101UL"
-			(at 151.13 36.83 0)
+			(at 313.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9590,7 @@
 			)
 		)
 		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/19782"
-			(at 151.13 36.83 0)
+			(at 313.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +9599,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, SMD, radial"
-			(at 151.13 36.83 0)
+			(at 313.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,8 +9898,233 @@
 		)
 	)
 	(symbol
+		(lib_id "USB4125-GF-A_REVA2:USB4125-GF-A_REVA2")
+		(at 368.3 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4f857cd-7c4d-4414-a13f-5259331a0633")
+		(property "Reference" "J1"
+			(at 377.19 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB4125-GF-A_REVA2"
+			(at 377.19 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "USB4125-GF-A_REVA2:GCT_USB4125-GF-A_REVA2"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Global Connector Technology"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.16 mm"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB4125-GF-A/Global+Connector+Technology/view-part/?ref=eda"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev A2"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4125-GF-A/Global+Connector+Technology/view-part/?ref=snap"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB4125-GF-A"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5160675&manufacturer=Global Connector Technology&part_name=USB4125-GF-A&search_term=None"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB Charge Only Connector Type C Horizontal Receptacle, 3.16mm profile, 6 Pins, Surface mount, Top mount, low cost"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GCT"
+			(at 368.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B5"
+			(uuid "f4d47fa9-9d4d-4e45-bf03-7922f2c20732")
+		)
+		(pin "A9"
+			(uuid "c4a9f951-1381-4f33-9f1d-b93bdebefb20")
+		)
+		(pin "S2"
+			(uuid "30310dc2-1fa0-4f5c-9a32-a0cf399fb59d")
+		)
+		(pin "B9"
+			(uuid "bf3d7699-43e1-42e5-8d6a-cafe4c02fdde")
+		)
+		(pin "A5"
+			(uuid "91597484-928b-409d-8d9b-0cb40dd43116")
+		)
+		(pin "A12"
+			(uuid "44061aaa-92aa-43fc-929a-6a7b0767a7dc")
+		)
+		(pin "B12"
+			(uuid "2fe800ba-3abc-4075-9a0c-8eea6c07b788")
+		)
+		(pin "S1"
+			(uuid "1a92fbcf-35ad-4070-8661-01ee95f5c00a")
+		)
+		(pin "S3"
+			(uuid "f5860b73-773b-4629-9bfd-77f4fad1834e")
+		)
+		(pin "S4"
+			(uuid "674255e8-bc0d-4ab5-8167-e7cad9d85a8e")
+		)
+		(instances
+			(project ""
+				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "fab:C_1206")
-		(at 162.56 36.83 0)
+		(at 325.12 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9176,7 +10133,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6b50980-1aa8-4024-b47f-58f2e2e176f2")
 		(property "Reference" "C8"
-			(at 166.37 35.5599 0)
+			(at 328.93 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +10142,7 @@
 			)
 		)
 		(property "Value" "C_1206"
-			(at 166.37 38.0999 0)
+			(at 328.93 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +10151,7 @@
 			)
 		)
 		(property "Footprint" "fab:C_1206"
-			(at 162.56 36.83 0)
+			(at 325.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +10160,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 162.56 36.83 0)
+			(at 325.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +10169,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 162.56 36.83 0)
+			(at 325.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
