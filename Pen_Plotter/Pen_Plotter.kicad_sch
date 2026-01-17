@@ -5649,28 +5649,6 @@
 			)
 		)
 	)
-	(global_label "EN"
-		(shape input)
-		(at 363.22 201.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "629b66fb-d8c3-47a6-be6a-d3719e166987")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.6847 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT2"
 		(shape input)
 		(at 74.93 82.55 0)
@@ -5728,28 +5706,6 @@
 		(uuid "6a7a7958-931f-4fe7-90c2-b34d4a9bc420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.7233 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
-		(shape input)
-		(at 363.22 191.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6abb3795-71bd-47bc-b9fb-f00b615a81c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.6847 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,76 +8453,6 @@
 			(project "Pen_Plotter"
 				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fab:R_1206")
-		(at 363.22 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "641c06b3-0417-4412-9889-abda9ea2f034")
-		(property "Reference" "R7"
-			(at 365.76 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 365.76 198.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "fab:R_1206"
-			(at 363.22 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 363.22 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 363.22 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb717bbe-20f4-4a4d-b92e-0bfb65a5c0c3")
-		)
-		(pin "1"
-			(uuid "6bf039fc-39f1-48c0-9f05-ac43408b794f")
-		)
-		(instances
-			(project "Pen_Plotter"
-				(path "/4e9b223a-cbc5-44ea-8094-5eb0dbc835d2"
-					(reference "R7")
 					(unit 1)
 				)
 			)
