@@ -7450,7 +7450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_1206"
+		(property "Value" "0"
 			(at 332.74 229.8699 0)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R_1206"
+		(property "Value" "10K"
 			(at 100.33 135.8899 0)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 				)
 			)
 		)
-		(property "Value" "X Lim"
+		(property "Value" "Y Lim"
 			(at 89.154 149.86 0)
 			(effects
 				(font
@@ -12427,7 +12427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_1206"
+		(property "Value" "0"
 			(at 347.98 229.8699 0)
 			(effects
 				(font
