@@ -401,7 +401,7 @@
 			(uuid "16856f72-f007-4ea0-912a-fed36191e295")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-223.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2040,6 +2040,17 @@
 			(uuid "cdccf1bf-dc91-4576-9bba-b44c852c98d7")
 		)
 		(embedded_fonts no)
+		(model "${MISC}/ULN2803.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 90 -180)
+			)
+		)
 	)
 	(footprint "fab:C_1206"
 		(layer "F.Cu")
@@ -4327,6 +4338,17 @@
 			(uuid "830c1453-d4bc-4618-84d6-b803360c5053")
 		)
 		(embedded_fonts no)
+		(model "${MISC}/USB4125-GF-A_REVA2/USB4125-GF-A_REVA2.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "fab:R_1206"
 		(layer "F.Cu")
